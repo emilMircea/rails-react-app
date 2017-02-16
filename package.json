@@ -1,0 +1,9 @@
+{
+  "name": "rails-react-app",
+  "version": "1.0.0",
+  "description": "a react front-end app with a rails back-end api",
+  "main": "bundle.js",
+  "repository": {},
+  "author": "emil-mircea",
+  "license": "MIT"
+}
