@@ -1,5 +1,6 @@
 var path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+var DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
     entry: './app/',
@@ -35,6 +36,7 @@ module.exports = {
 
     plugins: [
          new ExtractTextPlugin("styles.css"),
+         new DashboardPlugin()
     ]
 
 } // end

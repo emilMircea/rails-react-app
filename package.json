@@ -4,20 +4,26 @@
   "description": "a react front-end app with a rails back-end api",
   "main": "bundle.js",
   "repository": {},
+  "scripts": {
+    "dev": "webpack-dashboard -- webpack-dev-server --watch --progress --color --config ./webpack.config.js"
+  },
   "author": "emil-mircea",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
     "babel-loader": "^6.3.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
     "css-loader": "^0.26.1",
+    "eslint": "^3.15.0",
     "extract-text-webpack-plugin": "beta",
     "html-loader": "^0.4.4",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
+    "webpack-dashboard": "^0.3.0",
     "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
